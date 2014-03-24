@@ -1,0 +1,116 @@
+@import url("reset.css");
+#primarynav{
+  width:100%; 
+  height:60px; 
+  background-color:#505050;
+  color: #FFFFFF;
+}
+#secondarynav{
+  position:fixed;
+  top:0px;
+  width:100%; 
+  height:60px; 
+  background-color:#505050;
+  color: #FFFFFF;
+  z-index:9999;
+  display: none;
+}
+.ddmenu {
+  display: block;
+  float: right;
+  padding: 0 15px;
+  background: #505050;
+  color: #8aa8bd;
+  width:40%;
+}
+
+.ddmenu li { 
+  display: block;
+  position: relative;
+  float: left;
+  font-size: 1.45em;
+  width:25%;
+}
+
+.ddmenu li a {
+  text-align: center;
+  display: block;
+  float: left;
+  padding: 18px 0px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #FFFFFF;
+  width:100%;
+}
+.ddmenu li:hover > a {
+  color: #7180a0;
+  background: #d9e2ee;
+}
+
+.ddmenu ul {
+  position: absolute;
+  top: 65px;
+  width: 100%;
+  display: none;
+  margin: 0;
+  padding: 7px 0;
+  border-radius: 3px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.ddmenu ul li { 
+  display: block; 
+  width: 100%; 
+  font-size: 0.9em; 
+  text-shadow: 1px 1px 0 #fff;
+  overflow: hidden;
+}
+
+.ddmenu ul li a {
+  color:black;
+  text-align: left;
+  font-weight: normal;
+  display: block;
+  width: 100%;
+  padding: 5px;
+  line-height: 1.5em;
+  font-size: 0.7em;
+}
+.ddmenu ul li a:hover {
+  background: #e9edf3;
+}
+#primarynav h1 {
+  font-size: 25px;
+  float:left;
+  padding:15px 10px 10px;
+  margin-left: 2em;
+}
+#secondarynav h1 {
+  font-size: 25px;
+  float:left;
+  padding:15px 10px 10px;
+  margin-left: 2em;
+}
+#backtotop{
+  position:fixed;
+  bottom:0px;
+  width:100%; 
+  height:30px; 
+  background-color:#505050;
+  color: #FFFFFF;
+  z-index:9999;
+  display: none;
+  text-align: center;
+
+}
+#backtotop a{
+  display: block;
+  text-decoration: none;
+  color: #FFFFFF;
+  font-weight: bold;
+  padding: 5px 0;
+}
+p {
+  width:50%;
+}
