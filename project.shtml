@@ -1,0 +1,61 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>COMP 1950 Project</title>
+<link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+
+</head>
+<style>
+body {
+font-family: 'Roboto', sans-serif;
+width: 900px;
+margin-left:auto;
+margin-right:auto;}
+
+header{
+	background-color:#FF8800;
+	color:white;
+	padding:5px;
+	font-size: 1.5em;
+}
+</style>
+
+<body>
+<header><h1>Team GG</h1></header>
+<nav>Navigation Bar
+</nav>
+<section id="intro">
+<article id="goals"><h2>Goals of the Project</h2>
+<ul>
+<li>Inform students what they will be learning in the course</li>
+<li>Let the students know what is expected of them</li>
+<li>Readily accessible information for students</li>
+
+</ul>
+</article>
+
+<article id="progress"><h2>Progress Report</h2>
+</article>
+<article id="team"><h2>Team members</h2></article>
+<ul>
+<li>Charles</li>
+<li>Elijah</li>
+<li>Fiona</li>
+<li>Ken</li>
+</ul>
+
+<article id="articles">
+<h2>Artifacts</h2>
+<ol>
+<li>Questionaires
+</li>
+<li>Content
+</li>
+<li>Diagrams/Wireframes</li>
+</ol>
+</article>
+
+</section>
+</body>
+</html>

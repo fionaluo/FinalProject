@@ -1,3 +1,15 @@
+#content h2{border:dashed 1px;
+            background-color:#B9E8EA; 
+			padding: 0 1em 0 1em;	
+			margin: 1em 0 0.1em 0;
+				}
+.content-block{ border:dashed 1px;
+                background-color:#B9E8EA; 
+                font-size: 1.1em;
+				padding: 0 1em 0 1em;
+}
+
+
 footer ul{
   background-color:#505050;
   width:100%;
