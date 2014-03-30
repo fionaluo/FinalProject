@@ -2,7 +2,7 @@
 #primarynav{
   width:100%; 
   height:60px; 
-  background-color:#505050;
+  background-color:#27264D;
   color: #FFFFFF;
 }
 #secondarynav{
@@ -10,18 +10,18 @@
   top:0px;
   width:100%; 
   height:60px; 
-  background-color:#505050;
+  background-color:#27264D;
   color: #FFFFFF;
   z-index:9999;
   display: none;
 }
 .ddmenu {
+  background-color:#27264D;
   display: block;
-  float: right;
-  padding: 0 15px;
-  background: #505050;
   color: #8aa8bd;
   width:40%;
+  padding-left: 13%;
+  margin:0 auto;
 }
 
 .ddmenu li { 
@@ -31,9 +31,8 @@
   font-size: 1.45em;
   width:25%;
 }
-
 .ddmenu li a {
-  text-align: center;
+  text-align: left;
   display: block;
   float: left;
   padding: 18px 0px;
@@ -42,33 +41,34 @@
   color: #FFFFFF;
   width:100%;
 }
+.ddmenu>li:last-child a{
+  padding-left:15%;
+  }
 .ddmenu li:hover > a {
-  color: #7180a0;
-  background: #d9e2ee;
+  color: #F57A2E;
+  text-decoration: underline;
 }
-
 .ddmenu ul {
+  background-color:#27264D;
   position: absolute;
   top: 65px;
   width: 100%;
   display: none;
   margin: 0;
-  padding: 7px 0;
-  border-radius: 3px;
   border: 1px solid rgba(0, 0, 0, 0.2);
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
 }
-
 .ddmenu ul li { 
   display: block; 
   width: 100%; 
   font-size: 0.9em; 
-  text-shadow: 1px 1px 0 #fff;
   overflow: hidden;
+  border-bottom: solid #FFFFFF 1px;
 }
-
+.ddmenu ul li:last-child{
+  border: none;
+}
 .ddmenu ul li a {
-  color:black;
+  color: #FFFFFF;
   text-align: left;
   font-weight: normal;
   display: block;
@@ -78,7 +78,8 @@
   font-size: 0.7em;
 }
 .ddmenu ul li a:hover {
-  background: #e9edf3;
+  color: #F57A2E;
+  text-decoration: underline;
 }
 #primarynav h1 {
   font-size: 25px;
@@ -97,8 +98,7 @@
   bottom:0px;
   width:100%; 
   height:30px; 
-  background-color:#505050;
-  color: #FFFFFF;
+  background-color:#27264D;
   z-index:9999;
   display: none;
   text-align: center;
@@ -111,6 +111,7 @@
   font-weight: bold;
   padding: 5px 0;
 }
-p {
-  width:50%;
+#backtotop a:hover{
+  color: #F57A2E;
+  text-decoration: underline;
 }

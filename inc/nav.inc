@@ -1,8 +1,13 @@
     <nav id="primarynav">
-      <h1>COMP 1950</h1>
       <ul class="ddmenu">
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Lectures</a>
+        <li><a href="#">ABOUT</a>
+            <ul>
+              <li><a href="#">SYLLABUS</a></li>
+              <li><a href="#">OUTLINE</a></li>
+              <li><a href="#">CONTACT</a></li>
+            </ul>
+        </li>
+        <li><a href="#">LECTURES</a>
           <ul>
             <li><a href="#">01 | Introduction</a></li>
             <li><a href="#">02 | Tools $Standards</a></li>
@@ -15,23 +20,20 @@
             <li><a href="#">10 | jQuery / Git</a></li>
           </ul>
         </li>
-        <li><a href="#">Contact Us</a></li>
-        <li><a href="#">Associated</a>
-          <ul>
-            <li><a href="#">my.bcit</a></li>
-            <li><a href="#">BCIT</a></li>
-            <li><a href="#">BCIT:Computing</a></li>
-            <li><a href="#">alistair.com</a></li>
-          </ul>
-          </li>
+        <li><a href="#">PROJECT</a></li>
       </ul>
     </nav>
 
     <nav id="secondarynav">
-      <h1>COMP 1950</h1>
       <ul class="ddmenu">
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Lectures</a>
+        <li><a href="#">ABOUT</a>
+            <ul>
+              <li><a href="#">SYLLABUS</a></li>
+              <li><a href="#">OUTLINE</a></li>
+              <li><a href="#">CONTACT</a></li>
+            </ul>
+        </li>
+        <li><a href="#">LECTURES</a>
           <ul>
             <li><a href="#">01 | Introduction</a></li>
             <li><a href="#">02 | Tools $Standards</a></li>
@@ -44,15 +46,7 @@
             <li><a href="#">10 | jQuery / Git</a></li>
           </ul>
         </li>
-        <li><a href="#">Contact Us</a></li>
-        <li><a href="#">Associated</a>
-          <ul>
-            <li><a href="#">my.bcit</a></li>
-            <li><a href="#">BCIT</a></li>
-            <li><a href="#">BCIT:Computing</a></li>
-            <li><a href="#">alistair.com</a></li>
-          </ul>
-          </li>
+        <li><a href="#">PROJECT</a></li>
       </ul>
     </nav>
 
