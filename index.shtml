@@ -16,7 +16,7 @@
 
 	<div id="wrapper">
 
-	<!--#include file="inc/header.inc"-->
+
 	<!--#include file="inc/nav.inc"-->
 <section id="content">
 <article id="welcome">
