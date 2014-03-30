@@ -20,9 +20,8 @@
   display: block;
   color: #8aa8bd;
   width:40%;
-  padding-left: 13%;
   margin:0 auto;
-  min-width:600px;
+  min-width:400px;
 }
 
 .ddmenu li { 
@@ -30,10 +29,10 @@
   position: relative;
   float: left;
   font-size: 1.45em;
-  width:25%;
+  width:33%;
 }
 .ddmenu li a {
-  text-align: left;
+  text-align: center;
   display: block;
   float: left;
   padding: 18px 0px;
@@ -42,9 +41,6 @@
   color: #FFFFFF;
   width:100%;
 }
-.ddmenu>li:last-child a{
-  padding-left:15%;
-  }
 .ddmenu li:hover > a {
   color: #F57A2E;
   text-decoration: underline;
