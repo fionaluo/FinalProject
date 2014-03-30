@@ -5,6 +5,7 @@
 	<meta charset="utf-8">
 	<link rel="stylesheet" type="text/css" href="css/style.css" media="screen">
     <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
 	<script src="http://code.jquery.com/jquery-latest.js"></script>
 	<link rel="stylesheet" type="text/css" href="css/navstyles.css" media="screen">
 	<link rel="stylesheet" type="text/css" href="css/print.css" media="print">
@@ -18,9 +19,10 @@
 	<!--#include file="inc/header.inc"-->
 	<!--#include file="inc/nav.inc"-->
 <section id="content">
-
-
-
+<article id="welcome">
+<h2>Welcome</h2>
+fjkldsjflkdsjf
+</article>
 </section>
 	<!--#include file="inc/footer.inc" -->
 

@@ -1,8 +1,24 @@
-#content h2{border:dashed 1px;
-            background-color:#B9E8EA; 
-			padding: 0 1em 0 1em;	
-			margin: 1em 0 0.1em 0;
+#content h2{
+            
+font-family: 'Raleway', sans-serif;
+padding-bottom:20px;
+color: #00AEEA;
+font-size:17pt;
 				}
+				
+#content{
+	padding: 20px;
+	 background-color:#E6E6E6;
+	width: 100%;
+float:left;
+font-family: 'Open Sans', sans-serif;
+font-size:10pt;
+}
+#welcome{
+	width:900px;
+	margin-left:auto;
+	margin-right:auto;
+}
 .content-block{ border:dashed 1px;
                 background-color:#B9E8EA; 
                 font-size: 1.1em;
@@ -18,8 +34,7 @@ footer ul{
  vertical-align:middle;
   float:left;  
   padding: 10px 0;
-  font-size: 1.5em;
-  font-weight:bold;
+   font-weight:bold;
   }
   
 footer li{
@@ -37,5 +52,6 @@ footer a:visited {color:white;}
 footer a:hover {
 	color:#F57A2E;
 	padding: 5px;
+	text-decoration:underline;
 }
 
