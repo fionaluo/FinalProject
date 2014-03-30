@@ -2,9 +2,12 @@
 
 #mobilenav {
   display: block;
+  position:fixed; 
+  background-color: #27264D;
+  width:100%;
 }
 #menu {
-  position:absolute; 
+  position:fixed; 
   left:0;
   background-color:#27264D;
 }
