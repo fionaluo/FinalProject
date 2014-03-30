@@ -1,3 +1,65 @@
+    <nav id="mobilenav">
+        <p>
+        <button id="menuButton">MENU</button>
+        </p>
+        <div id="menu">
+        <ul>
+        <li><a href="#" id="mbabout">ABOUT</a>
+            <ul id="aboutcontent">
+              <li><a href="#">SYLLABUS</a></li>
+              <li><a href="#">OUTLINE</a></li>
+              <li><a href="#">CONTACT</a></li>
+            </ul>
+        </li>
+        <li><a href="#" id="mblecture">LECTURES</a>
+          <ul id="lecturecontent">
+            <li><a href="#">WEEK 01</a></li>
+            <li><a href="#">WEEK 02</a></li>
+            <li><a href="#">WEEK 03</a></li>
+            <li><a href="#">WEEK 04</a></li>
+            <li><a href="#">WEEK 05</a></li>
+            <li><a href="#">WEEK 06</a></li>
+            <li><a href="#">WEEK 07</a></li>
+            <li><a href="#">WEEK 08</a></li>
+            <li><a href="#">WEEK 09</a></li>
+            <li><a href="#">WEEK 10</a></li>
+          </ul>
+        </li>
+        <li><a href="#">PROJECT</a></li>
+        </ul>
+      </div>
+    </nav>
+    <script>
+        var menustate=1;
+        $(document).ready(function() {
+        $("#menu").animate({"left": "-150px"}, 1);
+        $("#aboutcontent").hide();
+        $("#lecturecontent").hide();
+    
+        $("#menuButton").click(function () {
+        if (menustate==0) {
+            menustate=1;
+            $("#menu").animate({"left": "-150px"}, "fast");
+        }
+        else if (menustate==1){
+            menustate=0;
+            $("#menu").animate({"left": "0"}, "fast");
+        }
+        });
+            
+        $("#mbabout").click(function () {
+            $("#aboutcontent").toggle(500);
+        });
+
+        $("#mblecture").click(function () {
+            $("#lecturecontent").toggle(500);
+        });
+
+        });
+    
+    
+    </script>
+
     <nav id="primarynav">
       <ul class="ddmenu">
         <li><a href="#">ABOUT</a>
@@ -51,17 +113,20 @@
     </nav>
 
 <script type="text/javascript">
-
+var mq = window.matchMedia( "(min-width: 361px)" );
 (function($) {
   $(document).ready(function(){
-
     $(window).scroll(function(){
-      if ($(this).scrollTop() > 80) {
+      if (($(this).scrollTop() > 80)&&mq.matches) {
         clearTimeout(window.myTimer);
         $('#secondarynav').fadeIn(500);
         window.myTimer = setTimeout(function(){
           $('#secondarynav').fadeOut(500);
         }, 3000);
+      }
+      else
+      {
+        $('#secondarynav').hide();
       }
     });
   $("#secondarynav").on("mouseenter", function(){

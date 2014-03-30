@@ -1,7 +1,10 @@
 body{
 	font-family: 'Open Sans', sans-serif;
 }
-
+#wrapper {
+	background-color:#E6E6E6;
+	overflow: hidden;
+}
 #content h2{
             
 font-family: 'Raleway', sans-serif;
@@ -12,7 +15,7 @@ font-size:17pt;
 				
 #content{
 	 background-color:#E6E6E6;
-	width: 100%;
+	width: 80%;
 float:left;
 font-size:10pt;
 }

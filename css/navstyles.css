@@ -1,4 +1,59 @@
 @import url("reset.css");
+
+#mobilenav {
+  display: block;
+}
+#menu {
+  position:absolute; 
+  left:0;
+  background-color:#27264D;
+}
+#menu a {
+  display: block;
+  text-decoration: none;
+  color: #FFFFFF;
+  padding: 5px;
+}
+#menu a:hover {
+  color: #F57A2E;
+  text-decoration: underline;
+}
+
+#primarynav, #secondarynav, #lectures{
+  display:none;
+}
+#backtotop{
+  position:fixed;
+  bottom:0px;
+  width:100%; 
+  height:30px; 
+  background-color:#27264D;
+  z-index:9999;
+  display: none;
+  text-align: center;
+}
+#backtotop a{
+  display: block;
+  text-decoration: none;
+  color: #FFFFFF;
+  font-weight: bold;
+  padding: 5px 0;
+}
+#backtotop a:hover{
+  color: #F57A2E;
+  text-decoration: underline;
+}
+
+@media (min-width: 361px) {
+
+#primarynav, #secondarynav, #lectures{
+  display:block;
+}
+
+#mobilenav {
+  display: none;
+}
+
 #primarynav{
   width:100%; 
   height:60px; 
@@ -90,25 +145,32 @@
   padding:15px 10px 10px;
   margin-left: 2em;
 }
-#backtotop{
-  position:fixed;
-  bottom:0px;
-  width:100%; 
-  height:30px; 
-  background-color:#27264D;
-  z-index:9999;
-  display: none;
-  text-align: center;
 
+#lectures{
+  float:right;
+  width:20%;
 }
-#backtotop a{
-  display: block;
+#lectures ul{
+  margin: 10% auto;
+  margin-top: 20%;
+  list-style: none;
+  width:80%;
+  background-color:#FFFFFF;
+  text-align: center;
+  border: solid #E6E6E6 3px;
+}
+#lectures li{
+  border-bottom: solid #E6E6E6 3px;
+  padding: 5% 0;
+}
+#lectures a{
   text-decoration: none;
-  color: #FFFFFF;
+  color: #27264D;
   font-weight: bold;
   padding: 5px 0;
 }
-#backtotop a:hover{
+#lectures a:hover{
   color: #F57A2E;
   text-decoration: underline;
+}
 }
