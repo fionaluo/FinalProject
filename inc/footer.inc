@@ -1,7 +1,7 @@
 <footer>
 <ul>
-<li><a href="#">Site Map</a></li>
-<li><a href="#">Blog</a></li>
-<li><a href="#">About Project</a></li>
+<li><a href="#">SITE MAP</a></li>
+<li>|</li>
+<li><a href="#">BLOG</a></li>
 </ul>
 </footer>

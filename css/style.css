@@ -9,15 +9,17 @@
 				padding: 0 1em 0 1em;
 }
 
-
 footer ul{
-  background-color:#505050;
+  background-color:#3C3B3B;
+  color:white;
+  font-family: 'Open Sans', sans-serif;
   width:100%;
   text-align:center;
  vertical-align:middle;
   float:left;  
   padding: 10px 0;
   font-size: 1.5em;
+  font-weight:bold;
   }
   
 footer li{
@@ -33,7 +35,7 @@ footer a:link{
 }
 footer a:visited {color:white;}
 footer a:hover {
-	background-color:#FF704D;
+	color:#F57A2E;
 	padding: 5px;
 }
 
