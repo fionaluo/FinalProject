@@ -1,17 +1,25 @@
 <!DOCTYPE html>
 <html>
 <head>
+<meta name="description" content="Sitemap for COMP 1950">
 <meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="css/style.css" media="screen">
+<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+<script src="http://code.jquery.com/jquery-latest.js"></script>
+<link rel="stylesheet" type="text/css" href="css/navstyles.css" media="screen">
 <link rel="stylesheet" type="text/css" href="css/sitemap.css">
+
 <title>SiteMap</title>
 </head>
 <body>
 
 <div id="wrapper">
+
 <!--#include file="inc/header.inc"-->
 <!--#include file="inc/nav.inc"-->
+
 <div class="sitemap">
-<h1>COMP1950 Sitemap</h1>
 
 <ul id="sitemapprimarynav">
 			<li id="sitemaphome"><a href="http://thenet.ca/1950">Home</a></li>
