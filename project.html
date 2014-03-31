@@ -5,57 +5,170 @@
 <title>COMP 1950 Project</title>
 <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
 
-</head>
-<style>
-body {
-font-family: 'Roboto', sans-serif;
-width: 900px;
-margin-left:auto;
-margin-right:auto;}
+</head><body>
+    <nav id="mobilenav">
+        <p>
+        <button id="menuButton">MENU</button> 
+        </p>
+		<div id="mobileheader">COMP1950</div>
+        <div id="menu">
+        <ul>
+        <li><a href="#" id="mbabout">ABOUT</a>
+            <ul id="aboutcontent">
+              <li><a href="#">SYLLABUS</a></li>
+              <li><a href="#">OUTLINE</a></li>
+              <li><a href="#">CONTACT</a></li>
+            </ul>
+        </li>
+        <li><a href="#" id="mblecture">LECTURES</a>
+          <ul id="lecturecontent">
+            <li><a href="#">WEEK 01</a></li>
+            <li><a href="#">WEEK 02</a></li>
+            <li><a href="#">WEEK 03</a></li>
+            <li><a href="#">WEEK 04</a></li>
+            <li><a href="#">WEEK 05</a></li>
+            <li><a href="#">WEEK 06</a></li>
+            <li><a href="#">WEEK 07</a></li>
+            <li><a href="#">WEEK 08</a></li>
+            <li><a href="#">WEEK 09</a></li>
+            <li><a href="#">WEEK 10</a></li>
+          </ul>
+        </li>
+        <li><a href="#">PROJECT</a></li>
+        </ul>
+      </div>
+    </nav>
+    <script>
+        var menustate=1;
+        $(document).ready(function() {
+        $("#menu").animate({"left": "-150px"}, 1);
+        $("#aboutcontent").hide();
+        $("#lecturecontent").hide();
+    
+        $("#menuButton").click(function () {
+        if (menustate==0) {
+            menustate=1;
+            $("#menu").animate({"left": "-150px"}, "fast");
+        }
+        else if (menustate==1){
+            menustate=0;
+            $("#menu").animate({"left": "0"}, "fast");
+        }
+        });
+            
+        $("#mbabout").click(function () {
+            $("#aboutcontent").toggle(500);
+        });
 
-header{
-	background-color:#FF8800;
-	color:white;
-	padding:5px;
-	font-size: 1.5em;
-}
-</style>
+        $("#mblecture").click(function () {
+            $("#lecturecontent").toggle(500);
+        });
 
-<body>
-<header><h1>Team GG</h1></header>
-<nav>Navigation Bar
-</nav>
-<section id="intro">
-<article id="goals"><h2>Goals of the Project</h2>
-<ul>
-<li>Inform students what they will be learning in the course</li>
-<li>Let the students know what is expected of them</li>
-<li>Readily accessible information for students</li>
+        });
+    
+    
+    </script>
 
-</ul>
-</article>
+    <nav id="primarynav">
+      <ul class="ddmenu">
+        <li><a href="#">ABOUT</a>
+            <ul>
+              <li><a href="#">SYLLABUS</a></li>
+              <li><a href="#">OUTLINE</a></li>
+              <li><a href="#">CONTACT</a></li>
+            </ul>
+        </li>
+        <li><a href="#">LECTURES</a>
+          <ul>
+            <li><a href="#">01 | Introduction</a></li>
+            <li><a href="#">02 | Tools $Standards</a></li>
+            <li><a href="#">03 | HTML 5 & SEO</a></li>
+            <li><a href="#">04 | CSS Concepts</a></li>
+            <li><a href="#">05 | More CSS</a></li>
+            <li><a href="#">06 | CSS and SSIs</a></li>
+            <li><a href="#">07 | Template Development</a></li>
+            <li><a href="#">09 | Methodology</a></li>
+            <li><a href="#">10 | jQuery / Git</a></li>
+          </ul>
+        </li>
+        <li><a href="#">PROJECT</a></li>
+      </ul>
+    </nav>
 
-<article id="progress"><h2>Progress Report</h2>
-</article>
-<article id="team"><h2>Team members</h2></article>
-<ul>
-<li>Charles</li>
-<li>Elijah</li>
-<li>Fiona</li>
-<li>Ken</li>
-</ul>
+    <nav id="secondarynav">
+      <ul class="ddmenu">
+        <li><a href="#">ABOUT</a>
+            <ul>
+              <li><a href="#">SYLLABUS</a></li>
+              <li><a href="#">OUTLINE</a></li>
+              <li><a href="#">CONTACT</a></li>
+            </ul>
+        </li>
+        <li><a href="#">LECTURES</a>
+          <ul>
+            <li><a href="#">01 | Introduction</a></li>
+            <li><a href="#">02 | Tools $Standards</a></li>
+            <li><a href="#">03 | HTML 5 & SEO</a></li>
+            <li><a href="#">04 | CSS Concepts</a></li>
+            <li><a href="#">05 | More CSS</a></li>
+            <li><a href="#">06 | CSS and SSIs</a></li>
+            <li><a href="#">07 | Template Development</a></li>
+            <li><a href="#">09 | Methodology</a></li>
+            <li><a href="#">10 | jQuery / Git</a></li>
+          </ul>
+        </li>
+        <li><a href="#">PROJECT</a></li>
+      </ul>
+    </nav>
 
-<article id="articles">
-<h2>Artifacts</h2>
-<ol>
-<li>Questionaires
-</li>
-<li>Content
-</li>
-<li>Diagrams/Wireframes</li>
-</ol>
-</article>
+<script type="text/javascript">
+var mq = window.matchMedia( "(min-width: 361px)" );
+(function($) {
+  $(document).ready(function(){
+    $(window).scroll(function(){
+      if (($(this).scrollTop() > 80)&&mq.matches) {
+        clearTimeout(window.myTimer);
+        $('#secondarynav').fadeIn(500);
+        window.myTimer = setTimeout(function(){
+          $('#secondarynav').fadeOut(500);
+        }, 3000);
+      }
+      else
+      {
+        $('#secondarynav').hide();
+      }
+    });
+  $("#secondarynav").on("mouseenter", function(){
+    clearTimeout(window.myTimer);
+    }).on("mouseleave", function(){
+      window.myTimer = setTimeout(function(){
+        $('#secondarynav').fadeOut(500);
+      }, 3000);
+    });
+            
+  $('a').on('click', function(e){
+    e.preventDefault();
+  });
+    
+  $('.ddmenu li').hover(function () {
+     clearTimeout($.data(this,'timer'));
+     $('ul',this).stop(true,true).slideDown(200);
+  }, function () {
+    $.data(this,'timer', setTimeout($.proxy(function() {
+      $('ul',this).stop(true,true).slideUp(200);
+    }, this), 100));
+  });
 
-</section>
+  window.onscroll = function(ev) {
+    if ((window.innerHeight + window.scrollY) >= document.body.offsetHeight) {
+        $('#backtotop').fadeIn(500);
+    } else {
+        $('#backtotop').fadeOut(500);
+    }
+};
+
+});
+})(jQuery);
+</script>
 </body>
 </html>

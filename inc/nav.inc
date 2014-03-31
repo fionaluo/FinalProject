@@ -1,7 +1,8 @@
     <nav id="mobilenav">
         <p>
-        <button id="menuButton">MENU</button>
+        <button id="menuButton">MENU</button> <div id="mobileheader">COMP1950</div>
         </p>
+		
         <div id="menu">
         <ul>
         <li><a href="#" id="mbabout">ABOUT</a>
