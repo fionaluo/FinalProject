@@ -9,7 +9,8 @@
 #menuButton{float:left;}
 #mobileheader{display:inline;float:right;color:#F57A2E;font-weight:bold;padding:5px;}
 #menu {
-  position:fixed; 
+  position:fixed;
+  top:25px; 
   left:0;
   background-color:#27264D;
 }
