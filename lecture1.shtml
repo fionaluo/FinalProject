@@ -286,7 +286,12 @@ please make sure you indicate that.  Link to exercises and assignments from the 
 Homepage</li>
 </ul>
 </div>
-		
+
+		<div>
+
+		<a href="#top">Top of Page</a> 
+
+		</div>
 </section>
 </div> <!--lecture-nav-->
 	<!--#include file="inc/footer.inc" -->
