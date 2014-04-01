@@ -46,6 +46,29 @@ padding-left: 5%;
                 font-size: 1.1em;
 				padding: 0 1em 0 1em;
 }
+
+#contact-content {
+padding: 10px;}
+
+#contact-content p{
+ padding: 5px 0 5px 0;
+}
+#contact-content dl {
+position:relative;
+clear:left;
+}
+
+#content #contact-content.contact-article{
+padding: 5px 0 5px 0;
+text-align:left;
+}
+
+.contact-img {
+float:left;
+padding: 10px;
+}
+
+
 footer {
 
 }
