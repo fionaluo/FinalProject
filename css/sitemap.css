@@ -51,7 +51,10 @@ ol, ul {
 #sitemapprimarynav li {
 	float: left;
 	padding: 20px;
-	    
+}
+
+#sitemapprimarynav > li {
+min-width: 20%;
 }
 #sitemapprimarynav li a {
 	margin: 0 0 0 0;
@@ -67,7 +70,7 @@ ol, ul {
 }
 #sitemapprimarynav li a:hover {
 	color: #F57A2E;
-    padding: 10px;
+    
 }
 
 
@@ -89,7 +92,7 @@ ol, ul {
 
 }
 #sitemapprimarynav li li a:hover {
-	padding:10px 10px 10px 15px;
+	
 	background-color: #fffce5;
 }
 
@@ -114,10 +117,6 @@ ol, ul {
 	padding:0 0 0 2px;
 	background-color: #E6E6E6;
 	
-}
-#sitemapprimarynav li li li a:hover {
-	
-    padding:0 0 0 15px;
 }
 
 

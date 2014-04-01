@@ -1,7 +1,7 @@
 <footer>
 <ul>
-<li><a href="#">SITE MAP</a></li>
+<li><a href="sitemap.shtml">SITE MAP</a></li>
 <li id="seperator">|</li>
-<li><a href="#">BLOG</a></li>
+<li><a href="blog.shtml">BLOG</a></li>
 </ul>
 </footer>
