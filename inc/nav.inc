@@ -1,6 +1,6 @@
     <nav id="mobilenav">
         <div>
-        <a href="#" id="menuButton"><img src="nav_icon.png" alt="nav-button"></a> <div id="mobileheader">COMP1950</div>
+        <a href="#" id="menuButton"><img id="navicon" src="nav_icon.png" alt="nav-button"></a> <div id="mobileheader">COMP1950</div>
         </div>
 		
         <div id="menu">
