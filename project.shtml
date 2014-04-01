@@ -78,16 +78,7 @@
 </ul>
   </article>
 
-<article id="rationale"><h2>Rationale</h2>
-<p>Our website design process was done as a solution to the call of redesigning the Comp1950 website. We started by pointing out some of the problems we noticed right off the bat and agreed upon, and then looked through the answer and questions that were provided by the client.</p>
 
-<p>Colors/aesthetics - We looked at the examples sites that the client stated in the questionnaire that he found he liked. We noted solid colors, clear grid like systems and a clear layout of information with clean, sans serif fonts. We also then researched other information sites, and came up with a flatter, colorblocked look. The selected colors are the orange-yellow the BCIT styleguide dictates for the department color, a navy blue for contrast and a light grey to form a cohesive palate. </p>
-
-<p>Information Organization - We decided to break the information of the site into different sections as per the main problem highlighted of access to information and information organization from the questionnaire. We found that some of the information that was on a shared page was information that we often looked directly for, such as the course syllabus. We gave these an easily locatable link in the nav bar. In terms of the information redistribution, we broke down the lectures so the lecture notes were all at the top, with hyperlinks still in, but at the bottom there would be a conclusive list of all external resource links, as well as a clear list of the homework.</p>
-
-<p>Navigation - We wanted a simple nav bar with clear minimal sections and dropdown menus for all important pages. We also decided that the current navigation took up too much screen real estate, so we opted for a main horizontal navigation bar that would hide and show itself to lend more screen space to anything a user might be trying to read extensively, such as lecture notes. We also used off canvas navigation for devices with smaller screen sizes.The footer would include the things that were not immediately relevant to the course materials and information, such as the blog, and a sitemap for SEO. If the page is long enough that scrolling appears, there is also a back to top option to get to the top of the page easily.</p>
-
-<p>Techniques - All techniques to make this page are concepts taken from a class in comp 1950. This point was taken from the client’s answers: this course will teach you everything you need to know to make this site.</p>
 
 </article>
 
