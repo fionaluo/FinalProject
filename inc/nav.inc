@@ -5,25 +5,25 @@
 		
         <div id="menu">
         <ul>
-        <li><a href="#" id="mbabout">ABOUT</a>
+        <li><a href="index.shtml" id="mbabout">ABOUT</a>
             <ul id="aboutcontent">
-              <li><a href="#">SYLLABUS</a></li>
-              <li><a href="#">OUTLINE</a></li>
-              <li><a href="#">CONTACT</a></li>
+              <li><a href="http://www.thenet.ca/1950/">SYLLABUS</a></li>
+              <li><a href="http://www.bcit.ca/study/courses/comp1950">OUTLINE</a></li>
+              <li><a href="contact.shtml">CONTACT</a></li>
             </ul>
         </li>
         <li><a href="#" id="mblecture">LECTURES</a>
           <ul id="lecturecontent">
             <li><a href="lecture1.shtml">WEEK 01</a></li>
-            <li><a href="#">WEEK 02</a></li>
-            <li><a href="#">WEEK 03</a></li>
-            <li><a href="#">WEEK 04</a></li>
-            <li><a href="#">WEEK 05</a></li>
-            <li><a href="#">WEEK 06</a></li>
-            <li><a href="#">WEEK 07</a></li>
-            <li><a href="#">WEEK 08</a></li>
-            <li><a href="#">WEEK 09</a></li>
-            <li><a href="#">WEEK 10</a></li>
+            <li><a href="http://www.thenet.ca/1950/week2/">WEEK 02</a></li>
+            <li><a href="http://www.thenet.ca/1950/week3/">WEEK 03</a></li>
+            <li><a href="http://www.thenet.ca/1950/week4/">WEEK 04</a></li>
+            <li><a href="http://www.thenet.ca/1950/week5/">WEEK 05</a></li>
+            <li><a href="http://www.thenet.ca/1950/week6/">WEEK 06</a></li>
+            <li><a href="http://www.thenet.ca/1950/week7/">WEEK 07</a></li>
+            <li><a href="http://www.thenet.ca/1950/week8/">WEEK 08</a></li>
+            <li><a href="http://www.thenet.ca/1950/week9/">WEEK 09</a></li>
+            <li><a href="http://www.thenet.ca/1950/week10/">WEEK 10</a></li>
           </ul>
         </li>
         <li><a href="project.shtml">PROJECT</a></li>
@@ -63,24 +63,24 @@
 
     <nav id="primarynav">
       <ul class="ddmenu">
-        <li><a href="#">ABOUT</a>
+        <li><a href="index.shtml">ABOUT</a>
             <ul>
-              <li><a href="#">SYLLABUS</a></li>
-              <li><a href="#">OUTLINE</a></li>
-              <li><a href="#">CONTACT</a></li>
+              <li><a href="http://www.thenet.ca/1950/">SYLLABUS</a></li>
+              <li><a href="http://www.bcit.ca/study/courses/comp1950">OUTLINE</a></li>
+              <li><a href="contact.shtml">CONTACT</a></li>
             </ul>
         </li>
-        <li><a href="#">LECTURES</a>
+        <li><a href="lecture1.shtml">LECTURES</a>
           <ul>
             <li><a href="lecture1.shtml">01 | Introduction</a></li>
-            <li><a href="#">02 | Tools & Standards</a></li>
-            <li><a href="#">03 | HTML 5 & SEO</a></li>
-            <li><a href="#">04 | CSS Concepts</a></li>
-            <li><a href="#">05 | More CSS</a></li>
-            <li><a href="#">06 | CSS and SSIs</a></li>
-            <li><a href="#">07 | Template Development</a></li>
-            <li><a href="#">09 | Methodology</a></li>
-            <li><a href="#">10 | jQuery / Git</a></li>
+            <li><a href="http://www.thenet.ca/1950/week2/">02 | Tools & Standards</a></li>
+            <li><a href="http://www.thenet.ca/1950/week3/">03 | HTML 5 & SEO</a></li>
+            <li><a href="http://www.thenet.ca/1950/week4/">04 | CSS Concepts</a></li>
+            <li><a href="http://www.thenet.ca/1950/week5/">05 | More CSS</a></li>
+            <li><a href="http://www.thenet.ca/1950/week6/">06 | CSS and SSIs</a></li>
+            <li><a href="http://www.thenet.ca/1950/week7/">07 | Template Development</a></li>
+            <li><a href="http://www.thenet.ca/1950/week9/">09 | Methodology</a></li>
+            <li><a href="http://www.thenet.ca/1950/week10/">10 | jQuery / Git</a></li>
           </ul>
         </li>
         <li><a href="project.shtml">PROJECT</a></li>
@@ -89,24 +89,24 @@
 
     <nav id="secondarynav">
       <ul class="ddmenu">
-        <li><a href="#">ABOUT</a>
+        <li><a href="index.shtml">ABOUT</a>
             <ul>
-              <li><a href="#">SYLLABUS</a></li>
-              <li><a href="#">OUTLINE</a></li>
-              <li><a href="#">CONTACT</a></li>
+              <li><a href="http://www.thenet.ca/1950/">SYLLABUS</a></li>
+              <li><a href="http://www.bcit.ca/study/courses/comp1950">OUTLINE</a></li>
+              <li><a href="contact.shtml">CONTACT</a></li>
             </ul>
         </li>
-        <li><a href="#">LECTURES</a>
+        <li><a href="lecture1.shtml">LECTURES</a>
           <ul>
             <li><a href="lecture1.shtml">01 | Introduction</a></li>
-            <li><a href="#">02 | Tools $Standards</a></li>
-            <li><a href="#">03 | HTML 5 & SEO</a></li>
-            <li><a href="#">04 | CSS Concepts</a></li>
-            <li><a href="#">05 | More CSS</a></li>
-            <li><a href="#">06 | CSS and SSIs</a></li>
-            <li><a href="#">07 | Template Development</a></li>
-            <li><a href="#">09 | Methodology</a></li>
-            <li><a href="#">10 | jQuery / Git</a></li>
+            <li><a href="http://www.thenet.ca/1950/week2/">02 | Tools & Standards</a></li>
+            <li><a href="http://www.thenet.ca/1950/week3/">03 | HTML 5 & SEO</a></li>
+            <li><a href="http://www.thenet.ca/1950/week4/">04 | CSS Concepts</a></li>
+            <li><a href="http://www.thenet.ca/1950/week5/">05 | More CSS</a></li>
+            <li><a href="http://www.thenet.ca/1950/week6/">06 | CSS and SSIs</a></li>
+            <li><a href="http://www.thenet.ca/1950/week7/">07 | Template Development</a></li>
+            <li><a href="http://www.thenet.ca/1950/week9/">09 | Methodology</a></li>
+            <li><a href="http://www.thenet.ca/1950/week10/">10 | jQuery / Git</a></li>
           </ul>
         </li>
         <li><a href="project.shtml">PROJECT</a></li>
