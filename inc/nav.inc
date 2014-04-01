@@ -73,7 +73,7 @@
         <li><a href="#">LECTURES</a>
           <ul>
             <li><a href="#">01 | Introduction</a></li>
-            <li><a href="#">02 | Tools $Standards</a></li>
+            <li><a href="#">02 | Tools & Standards</a></li>
             <li><a href="#">03 | HTML 5 & SEO</a></li>
             <li><a href="#">04 | CSS Concepts</a></li>
             <li><a href="#">05 | More CSS</a></li>
