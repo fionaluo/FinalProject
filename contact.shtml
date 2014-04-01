@@ -21,12 +21,11 @@
 <section id="content">
 
 <div id="contact-content">
-    <h2>Alistair Calder
-	</h2>
+    <h2>Alistair Calder</h2>
 	 <img class="contact-img" src="alistair.jpg" alt="instructor image" height="128" width="128">
 	 
    <article class="contact-article">
-   <p>Staff: Senior Analyst - <a href="http://bcit.ca/its/">IT Services</a>
+   <p>Staff: Senior Analyst - <a href="http://bcit.ca/its/">IT Services</a></p>
    <p>Faculty: Part Time Studies - <a href="http://bcit.ca/cas/">School of Computing and Academic Studies</a></p>
    <p>Starting with COMP 1850, I've been teaching Web Development for almost 6 years.  I developed COMP 1950 to be a continuation from the basic concepts in 1850.</p>
    <p>I am currently developing a master-level course specifically for HTML, CSS and JavaScript which should debut in Fall 2010.</p>
