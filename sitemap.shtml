@@ -22,7 +22,7 @@
 <div class="sitemap">
 
 <ul id="sitemapprimarynav">
-			<li id="sitemaphome"><a href="http://thenet.ca/1950" target="_blank">Home</a></li>
+			<li id="sitemaphome"><a href="http://thenet.ca/1950">Home</a></li>
 			<li><a href="/about">About COMP1950</a>
 
 				<ul>
@@ -34,7 +34,7 @@
 			<li><a href="/lectures">Lectures</a>
 
 				<ul>
-					<li><a href="/lectures/week1">Week One</a>
+					<li><a href="lectures/lecture1.shtml">Week One</a>
 						<ul>
 							<li><a href="/lectures/week1#intro">Introduction</a></li>
 							<li><a href="/lectures/week1#expect">Expectations</a></li>
