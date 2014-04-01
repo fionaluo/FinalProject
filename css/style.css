@@ -12,7 +12,7 @@ display:none;
 	overflow: hidden;
 }
 
-#seperator{
+.seperator{
 display:none;}
 
 #content h2{
@@ -105,7 +105,7 @@ footer a:hover {
 @media (min-width: 361px) {
 	#content{padding-top:0px;}
 	#content article{ padding: 20px 5% 0px 5%;}
-	#seperator{display:inline;}
+	.seperator{display:inline;}
 	footer li{
 list-style-type:none;
 display:inline;
