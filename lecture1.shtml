@@ -43,7 +43,7 @@
 
 <h2>Outline</h2>
 	<div class="content-block">
-		<p>Here is the current Course Outline (by week):</p>
+		<p id="intro">Here is the current Course Outline (by week):</p>
 		
 		<dl class="outline">
 			<dt class="lecture-week">Week 1</dt>
@@ -117,7 +117,7 @@ Exercises</dd>
 			</div>
 
 
-<h2>Other subjects?  Tailor the course!</h2>
+<h2 id="expect">Other subjects?  Tailor the course!</h2>
 
 <div class="content-block">
 
@@ -242,7 +242,7 @@ your Username to work): <strong>{accountname}@thenet.ca</strong></li>
 
 </div>
 
-<h2>assignment</h2>
+<h2 id="homework">assignment</h2>
 		<div class="content-block">
 
 <p>Create your course web site:</p>
