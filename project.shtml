@@ -65,8 +65,9 @@
 
 
 </section>
-	<!--#include file="inc/footer.inc" -->
 
+	<!--#include file="inc/footer.inc" -->
+	<!--#include file="inc/backtotop.inc" -->
 	</div> <!--wrapper-->
 
 </body></html>
