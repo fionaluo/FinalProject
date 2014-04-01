@@ -8,6 +8,7 @@
 }
 #menuButton{float:left; width:30px;padding:3px;}
 #mobileheader{display:inline;float:right;color:#F57A2E;font-weight:bold;padding:5px;}
+#navicon{width:100%;}
 #menu {
   position:fixed;
   top:25px; 
