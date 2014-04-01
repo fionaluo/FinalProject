@@ -1,7 +1,7 @@
     <nav id="mobilenav">
-        <p>
+        <div>
         <a href="#" id="menuButton"><img src="nav_icon.png" alt="nav-button"></a> <div id="mobileheader">COMP1950</div>
-        </p>
+        </div>
 		
         <div id="menu">
         <ul>
