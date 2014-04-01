@@ -138,11 +138,7 @@ var mq = window.matchMedia( "(min-width: 361px)" );
       }, 3000);
     });
             
-  <!--
-  $('a').on('click', function(e){
-    e.preventDefault();
-  });
--->  $('.ddmenu li').hover(function () {
+  $('.ddmenu li').hover(function () {
      clearTimeout($.data(this,'timer'));
      $('ul',this).stop(true,true).slideDown(200);
   }, function () {
