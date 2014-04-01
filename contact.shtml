@@ -1,32 +1,55 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-<meta name="description" content="Project page for COMP 1950">
+<meta name="description" content="Contact for COMP 1950">
 <meta charset="utf-8">
 <link rel="stylesheet" type="text/css" href="css/style.css" media="screen">
-<link rel="stylesheet" type="text/css" href="css/print.css" media="print">
+<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+<script src="http://code.jquery.com/jquery-latest.js"></script>
+<link rel="stylesheet" type="text/css" href="css/navstyles.css" media="screen">
+<link rel="stylesheet" type="text/css" href="css/sitemap.css">
+
 <title>Contact</title>
 </head>
-
 <body>
 
 <div id="wrapper">
 
 <!--#include file="inc/header.inc"-->
 <!--#include file="inc/nav.inc"-->
-
 <section id="content">
 
+<div id="contact-content">
+    <h2>Alistair Calder</h2>
+	 <img class="contact-img" src="alistair.jpg" alt="instructor image" height="128" width="128">
+	 
+   <article class="contact-article">
+   <p>Staff: Senior Analyst - <a href="http://bcit.ca/its/">IT Services</a></p>
+   <p>Faculty: Part Time Studies - <a href="http://bcit.ca/cas/">School of Computing and Academic Studies</a></p>
+   <p>Starting with COMP 1850, I've been teaching Web Development for almost 6 years.  I developed COMP 1950 to be a continuation from the basic concepts in 1850.</p>
+   <p>I am currently developing a master-level course specifically for HTML, CSS and JavaScript which should debut in Fall 2010.</p>
 
-
+   <dl>
+	 <dt>Currently teaching:</dt> 
+       <dd><a href="http://www.thenet.ca/1950/">COMP 1950</a> (<a href="http://www.bcit.ca/study/courses/comp1950">Course Outline</a>)</dd>
+     <dt>Previous taught:</dt> 
+       <dd><a href="http://www.bcit.ca/study/courses/comp1850">COMP 1850</a></dd>
+     </dl>
+	</article>
+	<article>
+     <ul>
+          <li><a href="mailto:acalder1@my.bcit.ca">Email: acalder1(at)my.bcit.ca</a></li>
+          <li><a href="https://twitter.com/alistaircalder">Find me on Twitter</a></li>
+     </ul>
+	</article>
+	
+	 
+</div>
 </section>
 
-
-
-
 <!--#include file="inc/footer.inc" -->
-
-</div> <!--wrapper-->
-
+<!--#include file="inc/backtotop.inc" -->
+</div>  <!--wrapper-->
 </body>
 </html>

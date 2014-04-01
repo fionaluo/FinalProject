@@ -8,7 +8,6 @@ body {
 	background: white;
 	color: black;
 	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
-	font-size: 12px;
 	line-height: 1;
 	
 }
@@ -60,8 +59,6 @@ min-width: 20%;
 	margin: 0 0 0 0;
 	padding: 10px;
 	display: block;
-	font-size: 16px;
-	font-weight: bold;
 	text-align: left;
 	color: white;	
     background-color: #27264D;

@@ -19,19 +19,20 @@
 <!--#include file="inc/header.inc"-->
 <!--#include file="inc/nav.inc"-->
 
+
 <div class="sitemap">
 
 <ul id="sitemapprimarynav">
-			<li id="sitemaphome"><a href="http://thenet.ca/1950">Home</a></li>
-			<li><a href="/about">About COMP1950</a>
+			<li id="sitemaphome"><a href="http://thenet.ca/1950" target="_blank">Home</a></li>
+			<li><a href="http://www.bcit.ca/study/courses/comp1950">About COMP1950</a>
 
 				<ul>
-					<li><a href="/outline">Outline</a></li>
-					<li><a href="/syllabus">Syllabus</a></li>
+					<li><a href="http://www.bcit.ca/study/courses/comp1950">Outline</a></li>
+					<li><a href="http://www.thenet.ca/1950/">Syllabus</a></li>
 					<li><a href="contact.shtml">Contact Info</a></li>
 				</ul>
 			</li>
-			<li><a href="lecture1.shtml">Lectures</a>
+			<li><a href="index.shtml">Lectures</a>
 
 				<ul>
 					<li><a href="lecture1.shtml">Week One</a>
@@ -39,29 +40,29 @@
 							<li><a href="lecture1.shtml#intro">Introduction</a></li>
 							<li><a href="lecture1.shtml#expect">Expectations</a></li>
 							<li><a href="lecture1.shtml#homework">Homework</a></li>
-							<li><a href="lecture1.shtml#homework">Marks</a></li>
+							<li><a href="lecture1.shtml#marks">Marks</a></li>
 						</ul>
 					</li>
-					<li><a href="/lectures/week2">Week 2</a></li>
-					<li><a href="/lectures/week3">Week 3</a></li>
-					<li><a href="/lectures/weekx">...</a></li>
+					<li><a href="http://www.thenet.ca/1950/week2/">Week 2</a></li>
+					<li><a href="http://www.thenet.ca/1950/week3/">Week 3</a></li>
+					<li><a href="http://www.thenet.ca/1950/">...</a></li>
 				</ul>
 			</li>
 
 			<li><a href="project.shtml">Project</a>
 				<ul>
-					<li><a href="/project/finance">Outline</a></li>
-					<li><a href="/project/medical">Requirements</a></li>
-					<li><a href="/project/...">...</a></li>
+					<li><a href="project.shtml">Outline</a></li>
+					<li><a href="project.shtml">Requirements</a></li>
+					<li><a href="http://www.thenet.ca/1950/">...</a></li>
 				</ul>
 			</li>
-			<li><a href="/etc">etc</a>
+			<li><a href="http://www.bcit.ca/study/courses/comp1950">etc</a>
 				<ul>
 
-					<li><a href="/etc/1">More stuff</a>
+					<li><a href="http://www.bcit.ca/study/courses/comp1950">More stuff</a>
 						<ul>
-							<li><a href="/etc/2">Sub list</a></li>
-							<li><a href="/etc/2">More sub</a></li>
+							<li><a href="http://www.bcit.ca/study/courses/comp1950">Sub list</a></li>
+							<li><a href="http://www.bcit.ca/study/courses/comp1950">More sub</a></li>
 						</ul>
 					</li>
 				</ul>
