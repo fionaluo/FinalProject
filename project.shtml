@@ -40,9 +40,9 @@
   </li>
     <li>Elijah
     <ul>
-    <li>Site Map</li>
-        <li>Basically didn't do anything</li>
-
+    <li>Site Map +CSS</li>
+    <li>lecture 1 +CSS</li>
+    <li>index page +CSS </li>
     </ul>
   </li>
     <li>Fiona
@@ -65,8 +65,9 @@
 
 
 </section>
-	<!--#include file="inc/footer.inc" -->
 
+	<!--#include file="inc/footer.inc" -->
+	<!--#include file="inc/backtotop.inc" -->
 	</div> <!--wrapper-->
 
 </body></html>

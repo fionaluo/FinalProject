@@ -14,7 +14,7 @@
         </li>
         <li><a href="#" id="mblecture">LECTURES</a>
           <ul id="lecturecontent">
-            <li><a href="#">WEEK 01</a></li>
+            <li><a href="lecture1.shtml">WEEK 01</a></li>
             <li><a href="#">WEEK 02</a></li>
             <li><a href="#">WEEK 03</a></li>
             <li><a href="#">WEEK 04</a></li>
@@ -26,7 +26,7 @@
             <li><a href="#">WEEK 10</a></li>
           </ul>
         </li>
-        <li><a href="#">PROJECT</a></li>
+        <li><a href="project.shtml">PROJECT</a></li>
         </ul>
       </div>
     </nav>
@@ -72,7 +72,7 @@
         </li>
         <li><a href="#">LECTURES</a>
           <ul>
-            <li><a href="#">01 | Introduction</a></li>
+            <li><a href="lecture1.shtml">01 | Introduction</a></li>
             <li><a href="#">02 | Tools & Standards</a></li>
             <li><a href="#">03 | HTML 5 & SEO</a></li>
             <li><a href="#">04 | CSS Concepts</a></li>
@@ -83,7 +83,7 @@
             <li><a href="#">10 | jQuery / Git</a></li>
           </ul>
         </li>
-        <li><a href="#">PROJECT</a></li>
+        <li><a href="project.shtml">PROJECT</a></li>
       </ul>
     </nav>
 
@@ -98,7 +98,7 @@
         </li>
         <li><a href="#">LECTURES</a>
           <ul>
-            <li><a href="#">01 | Introduction</a></li>
+            <li><a href="lecture1.shtml">01 | Introduction</a></li>
             <li><a href="#">02 | Tools $Standards</a></li>
             <li><a href="#">03 | HTML 5 & SEO</a></li>
             <li><a href="#">04 | CSS Concepts</a></li>
@@ -109,7 +109,7 @@
             <li><a href="#">10 | jQuery / Git</a></li>
           </ul>
         </li>
-        <li><a href="#">PROJECT</a></li>
+        <li><a href="project.shtml">PROJECT</a></li>
       </ul>
     </nav>
 
@@ -138,11 +138,7 @@ var mq = window.matchMedia( "(min-width: 361px)" );
       }, 3000);
     });
             
-  <!--
-  $('a').on('click', function(e){
-    e.preventDefault();
-  });
--->  $('.ddmenu li').hover(function () {
+  $('.ddmenu li').hover(function () {
      clearTimeout($.data(this,'timer'));
      $('ul',this).stop(true,true).slideDown(200);
   }, function () {

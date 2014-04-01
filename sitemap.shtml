@@ -22,24 +22,24 @@
 <div class="sitemap">
 
 <ul id="sitemapprimarynav">
-			<li id="sitemaphome"><a href="http://thenet.ca/1950" target="_blank">Home</a></li>
+			<li id="sitemaphome"><a href="http://thenet.ca/1950">Home</a></li>
 			<li><a href="/about">About COMP1950</a>
 
 				<ul>
 					<li><a href="/outline">Outline</a></li>
 					<li><a href="/syllabus">Syllabus</a></li>
-					<li><a href="/contact">Contact Info</a></li>
+					<li><a href="contact.shtml">Contact Info</a></li>
 				</ul>
 			</li>
-			<li><a href="/lectures">Lectures</a>
+			<li><a href="lecture1.shtml">Lectures</a>
 
 				<ul>
-					<li><a href="/lectures/week1">Week One</a>
+					<li><a href="lecture1.shtml">Week One</a>
 						<ul>
-							<li><a href="/lectures/week1#intro">Introduction</a></li>
-							<li><a href="/lectures/week1#expect">Expectations</a></li>
-							<li><a href="/lectures/week1#homework">Homework</a></li>
-							<li><a href="/lectures/week1#marks">Marks</a></li>
+							<li><a href="lecture1.shtml#intro">Introduction</a></li>
+							<li><a href="lecture1.shtml#expect">Expectations</a></li>
+							<li><a href="lecture1.shtml#homework">Homework</a></li>
+							<li><a href="lecture1.shtml#homework">Marks</a></li>
 						</ul>
 					</li>
 					<li><a href="/lectures/week2">Week 2</a></li>
@@ -73,6 +73,7 @@
 </div>  <!-- sitemap-->
 
 <!--#include file="inc/footer.inc" -->
+<!--#include file="inc/backtotop.inc" -->
 </div>  <!--wrapper-->
 </body>
 </html>

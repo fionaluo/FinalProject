@@ -8,6 +8,7 @@
     <link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
 	<script src="http://code.jquery.com/jquery-latest.js"></script>
 	<link rel="stylesheet" type="text/css" href="css/navstyles.css" media="screen">
+	<link rel="stylesheet" type="text/css" href="css/lecture.css" media="screen">
 	<link rel="stylesheet" type="text/css" href="css/print.css" media="print">
 	<title>Home page</title>
 </head>
@@ -16,15 +17,133 @@
 
 	<div id="wrapper">
 
-
+    <!--#include file="inc/header.inc"-->
 	<!--#include file="inc/nav.inc"-->
 <section id="content">
-<article id="welcome">
-<h2>Welcome</h2>
-fjkldsjflkdsjf
-</article>
+
+<div id="docbox">
+
+	<div id="main-content">
+		<div class="intro">
+		<p>COMP 1950 continues fundamental principles and techniques for
+		designing and developing effective web sites. <a href="http://www.bcit.ca/study/outlines/">Get more details</a>.</p>
+
+		<p>Check the <a href="http://www.bcit.ca/study/courses/comp1950">course
+		catalogue at BCIT</a> to see when this course is running next.</p>
+		</div>
+
+	<h1>Fall 2011 - welcome!</h1>
+		<div class="content-block">
+		<p>the agenda for week 1 is the following:</p>
+		<ul>
+			<li>about this course (outline, administrivia, assignments, etc)</li>
+			<li>Textbook</li>
+			<li>introductions (me, you)</li>
+			<li>web space (thenet.ca)</li>
+			<li>some expectations &amp; reminders</li>
+			<li>today's assignment</li>
+		</ul>
+		
+		</div>
+
+		<h2>about this course</h2>
+		<div class="content-block">
+		<p><strong>Official</strong> details about the who, what, where and how are located in the <a href="http://www.bcit.ca/study/outlines/">outlines section</a> on the BCIT web site</p>
+
+
+</div>
+
+<h2>Assignments</h2>
+		<div class="content-block">
+			<ul>
+				<li>Generally given during the lab portion, due the day before the next class:
+					<ul>
+				<li>ie: Tuesday class assignments are due the following Monday, Thursday class assignments are due the following Wednesday.</li></ul></li>
+				<li>Linked from your COMP 1950 page (more on that later)</li>
+			</ul>
+</div>
+
+<h2>Textbook</h2>
+<div class="content-block">
+	<ul>
+		<li>There is no textbook for this class - why?</li>
+	</ul>
+</div>
+
+<h2>Quizzes &amp; final exam</h2>
+	<div class="content-block">
+	
+		<p>All quizzes will feature at least one, and possibly all of the following question types:</p>
+		<ul>
+		
+		<li>fill-in-the-blanks</li>
+		<li>short answer</li>
+		<li>matching</li>
+		<li>code correction</li>
+		<li>code writing</li>
+		</ul>
+	</div>
+	
+	
+<h2>Dates/Times</h2>
+	<div class="content-block">
+		<h3>Burnaby</h3>
+				<dl>
+					<dt>Dates</dt>
+					<dd>Tuesdays, starting September 13th concluding November 29th, 2011</dd>
+					
+					<dt>Times</dt>
+					<dd>Begins at 6:30 and goes until 9:30 with a 15 minute break</dd>
+					</dl>
+					
+			<h3>Downtown</h3>		
+					<dl>
+					<dt>Dates</dt>
+					<dd>Thursdays, starting September 15th concluding December 1st, 2011</dd>
+					
+					<dt>Times</dt>
+					<dd>Begins at 6:30 and goes until 9:30 with a 15 minute break</dd>
+					
+
+				</dl>
+		
+		
+	</div>
+
+
+<h2>expectations &amp; reminders</h2>
+	<div class="content-block">
+		<p>There are a few things I want to make sure everyone knows:</p>
+			<ul>
+				<li>After week 2 - I do not want to help you with your FTP.  This is a <em>non-negotiable skill</em> you should know as a web developer</li>
+				<li>Spaces, special characters and capital letters should <strong>never</strong> be used in file or folder names on the web.   The habit might be easy to get into on your desktop, but as someone who crafts web pages, you should avoid this. </li>
+				<li>The student webspace is: <strong>students.thenet.ca/(student_name)</strong> &larr; Notice that there is <strong>no www</strong> at the front</li>
+				<li>You will be maintaining a web site for this course. A web development course. Think about that a moment.</li>
+				<li>The audience for your course homepage is your instructor, design it for me:
+					<ul>
+						<li>Have your assignments easy to find</li>
+						<li>The course is delivered weekly, so should your work</li>
+						<li>Use techniques you have learned in class</li>
+						<li>You don't have to spend hours making it beautiful - that is not an aim of this course.  Focus on making it usable and befitting of the content</li>
+						</ul></li>
+			</ul>
+		
+	</div>
+
+
+</div>
+
+	
+
+
+
+</div>
+
+
+
 </section>
 	<!--#include file="inc/footer.inc" -->
+	<!--#include file="inc/backtotop.inc" -->
 
 	</div> <!--wrapper-->
 
