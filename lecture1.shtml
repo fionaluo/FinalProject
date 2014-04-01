@@ -287,15 +287,10 @@ Homepage</li>
 </ul>
 </div>
 
-		<div>
-
-		<a href="#top">Top of Page</a> 
-
-		</div>
 </section>
 </div> <!--lecture-nav-->
 	<!--#include file="inc/footer.inc" -->
-
+    <!--#include file="inc/backtotop.inc" -->
 	</div> <!--wrapper-->
 
 </body>

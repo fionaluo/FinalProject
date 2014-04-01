@@ -135,11 +135,6 @@
 
 	
 
-		<div>
-
-		<a href="#top">Top of Page</a> 
-
-		</div>
 
 
 </div>
@@ -148,6 +143,7 @@
 
 </section>
 	<!--#include file="inc/footer.inc" -->
+	<!--#include file="inc/backtotop.inc" -->
 
 	</div> <!--wrapper-->
 
