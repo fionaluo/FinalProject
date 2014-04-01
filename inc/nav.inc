@@ -26,7 +26,7 @@
             <li><a href="#">WEEK 10</a></li>
           </ul>
         </li>
-        <li><a href="project.html">PROJECT</a></li>
+        <li><a href="project.shtml">PROJECT</a></li>
         </ul>
       </div>
     </nav>
