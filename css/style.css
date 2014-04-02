@@ -53,7 +53,7 @@ iframe#updates{
 #content article ul,#content article ol{
 padding-left: 5%;
 }
-
+#content article p{padding-bottom:20px;}
 #welcome{
 	width:200px;
 	float: right;

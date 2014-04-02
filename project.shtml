@@ -42,19 +42,13 @@
   </li>
     <li>Elijah
     <ul>
-<<<<<<< HEAD
     <li>Redesign Ideation</li>
-    <li>Site Map +CSS</li>
-    <li>lecture 1 +CSS</li>
-    <li>index page +CSS </li>
     <li>Content layout </li>
-=======
     <li>Site Map page +CSS</li>
     <li>lecture 1 page +CSS</li>
 	<li>contact page +CSS</li>
     <li>index page +CSS </li>
 	<li>assigned all hyperlinks </li>
->>>>>>> FETCH_HEAD
     </ul>
   </li>
     <li>Fiona
@@ -77,9 +71,7 @@
   </li>
 </ul>
   </article>
-
-
-
+<article><h2><a href="rationale.shtml">Rationale</h2>
 </article>
 
 </section>
