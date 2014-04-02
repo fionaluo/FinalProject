@@ -1,25 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<<<<<<< HEAD:lectures.shtml
+
 <meta name="description" content="Project page for COMP 1950">
 <meta charset="utf-8">
 <link rel="stylesheet" type="text/css" href="css/style.css" media="screen">
 <link rel="stylesheet" type="text/css" href="css/print.css" media="print">
-<link rel="stylesheet" type="text/css" href="css/navstyles.css" media="screen">
 <title>Lectures</title>
-=======
-	<meta name="description" content="Project page for COMP 1950">
-	<meta charset="utf-8">
-	<link rel="stylesheet" type="text/css" href="css/style.css" media="screen">
     <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
 	<script src="http://code.jquery.com/jquery-latest.js"></script>
 	<link rel="stylesheet" type="text/css" href="css/navstyles.css" media="screen">
 	<link rel="stylesheet" type="text/css" href="css/lecture.css" media="screen">
-	<link rel="stylesheet" type="text/css" href="css/print.css" media="print">
-	<title>Home page</title>
->>>>>>> FETCH_HEAD:lecture1.shtml
+
+
 </head>
 
 
