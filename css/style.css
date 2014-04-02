@@ -125,14 +125,11 @@ footer a:hover {
 @media (min-width: 361px) {
 	#content{padding-top:0px;}
 	#content article{ padding: 20px 5% 0px 5%;}
-<<<<<<< HEAD
+
 	#seperator{display:inline;}
 	
-footer li{
-=======
-	.seperator{display:inline;}
+
 	footer li{
->>>>>>> FETCH_HEAD
 list-style-type:none;
 display:inline;
 padding: 0 20px;
