@@ -118,7 +118,7 @@ var mq = window.matchMedia( "(min-width: 361px)" );
 (function($) {
   $(document).ready(function(){
     $(window).scroll(function(){
-      if (($(this).scrollTop() > 80)&&mq.matches) {
+      if (($(this).scrollTop() > 180)&&mq.matches) {
         clearTimeout(window.myTimer);
         $('#secondarynav').fadeIn(500);
         window.myTimer = setTimeout(function(){
